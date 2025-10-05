@@ -23,10 +23,13 @@ The notebook is designed to be fully reproducible and self-explanatory, with com
 - **Repository Structure:**
 
 ├── code.ipynb # Main notebook for data loading, processing, and visualization
+
 ├── README.md # Documentation (this file)
+
 └── yeast/ # Directory containing dataset files (to be created by user)
-├── yeast.arff # Feature and label data file
-└── yeast.xml # Label description fil
+
+    ├── yeast.arff # Feature and label data file
+    └── yeast.xml # Label description fil
 
 ### Dataset Description
 - Name: Yeast Dataset (Multi-Label Classification)
